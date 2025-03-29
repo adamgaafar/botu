@@ -4,7 +4,7 @@ mod head;
 use convert_case::*;
 
 use self::{footer::*, head::*};
-use super::{components::*, utils::*};
+use super::components::*;
 use crate::{prelude::*, queries::list_deployments_query};
 
 /// The Shell Outer for Deployment Page

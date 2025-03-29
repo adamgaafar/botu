@@ -1,6 +1,5 @@
 use std::{collections::BTreeMap, rc::Rc};
 
-use ev::MouseEvent;
 use models::api::workspace::deployment::ExposedPortType;
 use strum::VariantNames;
 

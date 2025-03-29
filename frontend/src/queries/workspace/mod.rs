@@ -7,7 +7,7 @@ pub fn list_workspaces_query(
 ) -> Resource<Option<String>, Result<ListUserWorkspacesResponse, ServerFnError<ErrorType>>> {
 	create_resource(
 		move || AuthState::load().0.get().get_access_token(),
-		move |(access_token)| async move {
+		move |access_token| async move {
 			if let Some(access_token) = access_token {
 				list_user_workspace(access_token).await
 			} else {

@@ -15,5 +15,4 @@ pub use self::{
 	machine_type_card::*,
 	port_input::*,
 	probe_input::*,
-	volume_input::*,
 };

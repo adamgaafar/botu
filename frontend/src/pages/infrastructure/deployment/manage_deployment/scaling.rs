@@ -1,4 +1,4 @@
-use std::{f32::consts::E, rc::Rc};
+use std::rc::Rc;
 
 use ev::MouseEvent;
 use models::api::workspace::deployment::*;

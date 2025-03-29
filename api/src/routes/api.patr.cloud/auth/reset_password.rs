@@ -82,7 +82,7 @@ pub async fn reset_password(
 	}
 
 	if user_data.password_reset_attempts.unwrap_or(0) >
-		constants::MAX_PASSWORD_RESET_ATTEMPTS.into()
+    	(constants::MAX_PASSWORD_RESET_ATTEMPTS as i32)
 	{
 		debug!("Password reset attempts exceeded");
 		return Err(ErrorType::InvalidPasswordResetToken);

@@ -1,7 +1,6 @@
-use std::collections::BTreeMap;
 
 use leptos::server_fn::codec::Json;
-use models::{api::user::*, rbac::WorkspacePermission};
+use models::api::user::*;
 
 use crate::prelude::*;
 

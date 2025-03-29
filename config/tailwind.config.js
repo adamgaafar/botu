@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    ".html",
-    "frontend/src/**/*.rs",
-    "components/src/**/*.rs",
+    "./*.html",   // Fixes HTML content path
+    "./frontend/src/**/*.rs", // Rust files
+    "./components/**/*.rs",
   ],
   corePlugins: {
     preflight: false,
@@ -18,7 +18,6 @@ export default {
         secondary: "#0d0526",
         "secondary-medium": "#2e2450",
         "secondary-light": "#23203e",
-
         error: "#d62b36",
         "error-light": "#d62b3680",
         warning: "#fdd13a",
@@ -27,17 +26,13 @@ export default {
         "success-light": "#47c96c80",
         info: "#007bff",
         "info-light": "#007bff80",
-
         white: "#ffffff",
         black: "#000000",
         grey: "#ffffffac",
         disabled: "#ffffff60",
-
         "txt-code-snippet": "#a5c5ff",
         "bg-code-snippet": "#78a7ff1a",
-
         "border-color": "#414245",
-
         "tooltip-color": "#333333",
       },
       fontFamily: {

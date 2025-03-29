@@ -1,5 +1,4 @@
 use ev::SubmitEvent;
-use models::api::auth::LoginResponse;
 
 use crate::prelude::*;
 
