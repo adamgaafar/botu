@@ -1,6 +1,6 @@
-# Patr - Open Source, AI powered, DevOps platform --ADAM GAAFAR
+# Botu - Open Source, AI powered, DevOps platform --ADAM GAAFAR
 
-Patr is a tool that helps you deploy your applications to multiple environments with ease. It is designed to be simple to use and easy to integrate with your existing CI/CD pipelines.
+Botu is a tool that helps you deploy your applications to multiple environments with ease. It is designed to be simple to use and easy to integrate with your existing CI/CD pipelines.
 
 # WORK IN PROGRESS
 
@@ -37,7 +37,7 @@ You can now access the project at `http://localhost:3000`.
 
 # Features
 
-Patr is built with Rust, Axum, and Postgres. It is designed to be fast, secure, and scalable. Your code can be deployed to any environment from a single dashboard. For example, you can manage your deployments that are running on a VM (say, EC2 instance) as well as your deployments that are running on a Kubernetes cluster, all from a simple, easy-to-use, unified dashboard. Where your code runs is up to you, Patr just helps you manage it. This means that you can also use Patr to manage your deployments on your local machine, if you so desire. A common use-case of having a home-box on a Raspberry Pi, for example, and managing your deployments on it with Patr is supported.
+Botu is built with Rust, Axum, and Postgres. It is designed to be fast, secure, and scalable. Your code can be deployed to any environment from a single dashboard. For example, you can manage your deployments that are running on a VM (say, EC2 instance) as well as your deployments that are running on a Kubernetes cluster, all from a simple, easy-to-use, unified dashboard. Where your code runs is up to you, Botu just helps you manage it. This means that you can also use Botu to manage your deployments on your local machine, if you so desire. A common use-case of having a home-box on a Raspberry Pi, for example, and managing your deployments on it with Botu is supported.
 
 Here are some of the features that we plan to implement:
 
@@ -48,7 +48,7 @@ Here are some of the features that we plan to implement:
 - ✅ Create and manage users.
 - ✅ Create and manage roles.
 - 🚧 Implement the runner to manage the deployments on the server.
-- 🚧 Audit log for all actions that are performed on Patr. (Help needed: What's the data that needs to be stored and how do I store it?)
+- 🚧 Audit log for all actions that are performed on Botu. (Help needed: What's the data that needs to be stored and how do I store it?)
 - [ ] Create and manage secrets.
 - [ ] Create and manage databases.
 
