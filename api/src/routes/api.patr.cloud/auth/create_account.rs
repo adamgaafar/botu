@@ -6,6 +6,9 @@ use models::api::auth::*;
 use rand::Rng;
 use time::OffsetDateTime;
 
+use lettre::transport::smtp::authentication::Credentials;
+use lettre::{Message, SmtpTransport, Transport};
+
 use crate::prelude::*;
 
 pub async fn create_account(
